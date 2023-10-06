@@ -52,7 +52,7 @@ label {
 .preference{
     margin: 15px 5px;
 }
-
+ 
 .f2{
     padding: 20px;
 }
@@ -60,6 +60,11 @@ label {
 input[type="radio"]{
     margin-left: 10px;
     display: inline-block;
+}
+
+.text{
+    max-width: 50%;
+    width: 600px;
 }
 
 input[type="submit"]{

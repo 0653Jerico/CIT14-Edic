@@ -12,7 +12,7 @@
         <p id="description"><em>Thank you for taking the time to answer this quiz</em></p>
     </header>
     <form action="https://register-demo.freecodecamp.org" method="post" id="survey-form">
-        <fieldset>
+        <fieldset class="f2">
             <label class="info-label" for="name-label">Enter Your Name: 
                 <input class="student-info" type="text" id="name-label" placeholder="Name" required>
             </label>
@@ -22,16 +22,16 @@
             </label>
 
             <label class="info-label" for="number-label">Enter Your Age: 
-                <input class="student-info" type="number" id="number-label" min="12" max="120" placeholder="Age" required>
+                <input class="student-info3" type="number" id="number-label" min="12" max="120" placeholder="Age" required>
             </label>
         </fieldset>
-        <fieldset>
+        <fieldset class="f2">
             <label class="preference" for="dropdown">What are other topics you would like to learn?
                 <select name="options" id="dropdown">
                     <option value=" ">Choose</option>
-                    <option value="1"></option>
-                    <option value="2"></option>
-                    <option value="3"></option>
+                    <option value="1">PHP</option>
+                    <option value="2">SQL</option>
+                    <option value="3">MongDB</option>
                 </select>
             </label>
             <label class="preference" for="">Would You recommend freeCodeCamp to others?
@@ -44,9 +44,9 @@
                 <input type="checkbox" name="interest"> CSS
                 <input type="checkbox" name="interest"> JavaScript
         </fieldset>
-        <fieldset>
+        <fieldset class="f2">
             <label for="comments">
-                <textarea name="suggestions" id="comments" cols="74" rows="10">Any Suggestions or Comments:</textarea>
+                <textarea name="suggestions" id="comments" cols="99" rows="10">Any Suggestions or Comments:</textarea>
             </label>
         </fieldset>
         <input type="submit" value="Submit"> 

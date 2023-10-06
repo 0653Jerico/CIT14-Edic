@@ -4,31 +4,34 @@ html {
 }
 
 body {
-    background-color: gray;
-}
-
-form {
-    width: 60vw;
-    max-width: 1000px;
-    min-width: 300px;
-    margin: 0 auto;
-    padding-bottom: 2em;
-}
-
-fieldset{
-    border: none;
-    padding: 2rem 0;
-    border-bottom: 3px solid whitesmoke;
+    background-color: rgba(221, 193, 67, 0.438);
 }
 
 header {
     width: 60vw;
     max-width: 1000px;
     text-align: center;
-    border: 1px solid #f7f2f4;
-    border-radius: 10px;
+    border: 2px solid #eeac49;
+    border-radius: 20px;
     margin: 30px auto;
     padding-bottom: 10px;
+}
+
+form {
+    width: 60vw;
+    max-width: 800px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: cornsilk;
+    border: 2px solid #eeac49;
+    border-radius: 20px;
+}
+
+fieldset{
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid rgba(212, 166, 14, 0.781);
 }
 
 label {
@@ -37,12 +40,21 @@ label {
 }
 
 .student-info{
-    width: 100%;
+    width: 98%;
+    height: 20px;
+}
+
+.student-info3{
+    width: 40px;
     height: 20px;
 }
 
 .preference{
-    margin: 10px 5px;
+    margin: 15px 5px;
+}
+
+.f2{
+    padding: 20px;
 }
 
 input[type="radio"]{

@@ -3,9 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Landing Page</title>
+    <title>Personal Portfolio Webpage</title>
+    <link rel="stylesheet" href="ProductLP.css">
 </head>
 <body>
-    
+    <div id="page-wrapper">
+        <header id="header">
+            <img src="crossfire-logo.jpg" alt="This is a Crossfire logo" id="header-img">
+            <nav id="nav-bar">
+                <a href="#bundles" class="nav-link">Bundles</a>
+                <a href="#bundle-video" class="nav-link">Bundle Video</a>
+                <a href="#pricing" class="nav-link">Pricing</a>
+            </nav>
+        </header>
+        <div class="container">
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
+                <input type="email" id="email" placeholder="Enter your Email">
+                <input type="submit" id="submit" value="">
+            </form>   
+        </div>
+        <div class="content">
+            <section class="bundles"></section>
+            <section class="bundle-video"></section>
+            <section class="pricing"></section>
+        </div>
+    </div>
 </body>
 </html>

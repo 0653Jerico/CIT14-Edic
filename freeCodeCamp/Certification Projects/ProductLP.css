@@ -1,19 +1,35 @@
+:root{
+    --background-color: rgba(0, 225, 255, 0.904);
+    --background-color2: white;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body{
+    background: linear-gradient(
+        to left,
+        var(--background-color),
+        var(--background-color2)70%
+    );
+
+}
+
 nav {
     font-weight: 400;
 }
-
+ 
 nav > ul {
     width: 35vw;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
+
+
 
 a {
     color: #000;
@@ -28,10 +44,11 @@ div {
     display: block;
 }
 
-header {
+#header {
     position: fixed;
     top: 0;
-    min-height: 75px;
+    min-height: 100px;
+    width: 100%;
     padding: 0px 20px;
     display: flex;
     justify-content: space-around;

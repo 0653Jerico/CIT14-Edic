@@ -4,7 +4,9 @@ html {
 }
 
 body {
-    background-color: rgba(221, 193, 67, 0.438);
+    background-image: url("../images/cf.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header {
@@ -15,17 +17,21 @@ header {
     border-radius: 20px;
     margin: 30px auto;
     padding-bottom: 10px;
+    color: aliceblue;
+    background-color: #eeac4977;
 }
 
 form {
     width: 60vw;
-    max-width: 800px;
+    max-width: 100%;
     min-width: 300px;
     margin: 0 auto;
     padding: 5px;
-    background-color: cornsilk;
+    background-color: rgba(255, 248, 220, 0.637);
     border: 2px solid #eeac49;
     border-radius: 20px;
+    font-weight: 300;
+    text-align: center;
 }
 
 fieldset{
@@ -40,7 +46,7 @@ label {
 }
 
 .student-info{
-    width: 98%;
+    width: 50%;
     height: 20px;
 }
 

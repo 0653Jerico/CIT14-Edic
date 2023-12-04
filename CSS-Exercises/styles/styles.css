@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container1{
+    width: 500px;
+    height: 400px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    margin-top: 70px;
+} 
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.box1{
+    background-color: red;
+}
+
+.box2{
+    background-color: green;
+}
+
+.box3{
+    background-color: blue;
+}
+
+.container{
+    width: 300px;
+    height: 300px;
+    background-color: burlywood;
+    padding: 120px;
+    margin: 30px auto;
+} 
+
+.container3{
+    width: 600px;
+    height: 200px;
+    background-color: dimgray;
+    border: 2px solid red;
+    margin: 30px auto;
+}
+
+.fbox{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 48px;
+    float: left;
+}
+
+.box4{
+    background-color: red;
+}
+
+.box5{
+    background-color: green;
+}
+
+.box6{
+    background-color: blue;
+}
+
+header{
+    max-width: 100%;
+    width: 100rem;
+    height: 3vw;
+    background: linear-gradient(
+        to left,
+        purple,
+        white
+    );
+    position: absolute;
+    top: 0;
+}
+
+nav{
+    max-width: 100%;
+    width: 500px;
+    height: 3vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 65rem;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+nav a:hover{
+    font-size: 25px;
+    color: white;
+}
+
+.container4{
+    width: 205px;
+    height: 105px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: repeat(4, 50px);
+    margin: 30px auto;
+}
+
+.grid{
+    background-color: black;
+    border: 5px solid white;
+}
+
+@media only screen and (max-width: 500px){
+    .container1{
+        width: 300px;
+        height: 200px;
+    } 
+    
+    .box{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .container{
+        width: 150px;
+        height: 150px;
+        padding: 55px;
+        font-size: 12px;
+    } 
+    
+    .container3{
+        max-width: 100%;
+        width: 380px;
+        height: 150px;
+    }
+    
+    .fbox{
+        width: 45px;
+        height: 45px;
+        margin: 40px;
+    }
+
+    html{
+        background: linear-gradient(
+            to right,
+            purple,
+            white
+        );
+        background: no-repeat;
+    }
+
+    header{
+        max-width: 100%;
+        width: 200px;
+        height: 5vw;
+    }
+    
+    nav{
+        width: 250px;
+        height: 5vw;
+        margin-left: 5rem;
+    }
+    
+    nav a{
+        font-size: 12px;
+    }
+    
+    nav a:hover{
+        font-size: 14px;
+        color: white;
+    }
+}
